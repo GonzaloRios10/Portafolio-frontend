@@ -1,27 +1,29 @@
-# MiPortafolio
+# 💻 Portfolio Web - FrontEnd
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+📝 Descripción
+Portfolio Web Fullstack realizado como Proyecto Final del curso Argentina Programa - #YoProgramo.
 
-## Development server
+Se trata de una Single Page Application (SPA) realizada utilizando tecnologías Frontend como ser HTML, CSS, Angular y Bootstrap.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## ❔ Como funciona
+Podemos ingresar al login de la pagina haciendo click en el logo donde se encuentran los usuarios (en el header) en el encabezado de la página.
 
-## Code scaffolding
+![](https://i.postimg.cc/jddHC8bG/portfolio.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Debemos poner usuario y contraseña.
 
-## Build
+![](https://i.postimg.cc/Xq7855q8/Login.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Una vez dentro, la aplicacion permite el poder modificar, eliminar y agregar en sus distintos puntos de seccion, ya sea:
+- Editar Perfil.
+- Agregar-modificar-eliminar Experiencia laboral.
+- Agregar-modificar-eliminar Educacion.
+- Agregar-modificar-eliminar Hard y Soft skills.
+- Agregar-modificar-eliminar Proyectos.
 
-## Running unit tests
+![](https://i.postimg.cc/bvBwxcm2/Edit.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+📩 Contacto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+🙋‍♂️Si tienes dudas o te interesa ponerte en contacto conmigo podés hacerlo a través de [Linkedln](https://www.linkedin.com/in/gonzalo-agustín-rios-540784220/ "Linkedln").
