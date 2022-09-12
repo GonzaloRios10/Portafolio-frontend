@@ -1,0 +1,28 @@
+<div class="row" *ngFor="let persona of persona">	
+	<img class="foto-banner" src="{{persona.banner}}">
+	
+	<div class="row-perfil">
+		<img src="{{persona.img}}" alt="Foto de Perfil" class="foto-perfil">
+		<p style="margin-top: 30px;">
+			<i class="fa-solid fa-envelope"></i> {{persona.email}}
+			<br><br>
+			<i class="fa-solid fa-phone"></i> {{persona.telefono}}
+		</p>
+	</div>
+	
+	<div class="row-caja1" >
+		<h1>Perfil</h1>
+		<p>{{persona.apellido}} {{persona.nombre}}</p>
+		<p>{{persona.perfil}}</p>
+		<button *ngIf="isLogged" class="boton_editar" routerLink="/editacerca-de/{{persona.id}}">
+            Editar Perfil <i class="fa-solid fa-pen"></i>
+    	</button>
+	</div>
+
+	<div class="row-caja2">
+		<span>
+			<h2>Acerca de mi</h2>
+			<p id="texto">{{persona.acerca_demi}}</p>
+		</span>
+	</div>	
+</div>

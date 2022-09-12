@@ -1,0 +1,64 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.row {
+	--bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+	background: rgb(236, 240, 241);
+	padding-left: 25px;
+	padding-top: 30px;
+}
+
+.botones {
+	width: auto;
+	text-align: center;
+/*	border: 1px solid;*/
+}
+
+.row-skills {
+	width: auto;
+	margin: 20px;
+/*	border: 1px solid;*/
+}
+
+.boton_nuevaskills {
+	background: rgb(23, 32, 42);
+	padding: 8px;
+	color: rgb(255, 255, 255);
+	border-radius: 5%;
+}
+
+.boton_editar {
+	background: rgb(52, 152, 219);
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 15px;
+	padding: 8px;
+	border: none;
+	border-radius: 10%;
+}
+
+.boton_editar:hover {
+	border: 1px solid black;
+}
+
+.boton_borrar {
+	background: rgb(222, 42, 31);
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 15px;
+	padding: 8px;
+	border: none;
+	border-radius: 10%;
+}
+
+.boton_borrar:hover {
+	border: 1px solid black;
+}

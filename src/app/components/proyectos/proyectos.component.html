@@ -1,0 +1,29 @@
+<div class="row">
+	<h2>Proyectos <i class="fa-solid fa-computer"></i></h2>
+	<div>
+        <button type="button" class="boton_nuevoproyec" routerLink="/nuevoproyecto" *ngIf="isLogged">
+            Nuevo Proyecto
+        </button>
+    </div>
+
+    <div class="row-slider" >
+        <ul>
+            <li *ngFor="let Proyectos of proyec">
+                <h3>
+                    {{Proyectos.nombreP}}
+                    <button *ngIf="isLogged" class="boton_editar" routerLink="/editproyecto/{{Proyectos.id}}">
+                        <i class="fa-solid fa-pen"></i>
+                    </button>
+
+                    <button *ngIf="isLogged" class="boton_borrar" (click)="delete(Proyectos.id)">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                </h3>
+                <p>
+                    {{Proyectos.descripcionP}}
+                </p>  
+                <img src="{{Proyectos.imagenP}}">
+            </li>
+        </ul>
+    </div>
+</div>

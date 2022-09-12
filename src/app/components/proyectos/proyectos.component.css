@@ -1,0 +1,99 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+.row {
+	--bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    width: 100%;
+	background: rgb(236, 240, 241);
+	padding-left: 25px;
+	padding-top: 30px;
+}
+
+.row-slider {
+	width: 90%;
+	height: auto;
+	margin: 30px auto 50px;
+	overflow: hidden;
+/*	border: 1px solid;*/
+}
+
+.row-slider ul {
+	display: flex;
+	padding: 0;
+	width: 300%;
+	animation: slider 15s infinite alternate ease-in;
+	/*border: 1px solid;*/
+}
+
+.row-slider li{
+	width: 100%;
+	list-style: none;
+	text-align: center;
+/*	border: 1px solid;*/
+}
+
+.row-slider img {
+	object-fit: cover;
+	width: 50%;
+	box-shadow: 0px 8px 20px rgba(0,0,0,0.5);
+}
+
+/*img:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}*/
+
+@keyframes slider {
+	0%{margin-left: 0%;}
+	20%{margin-left: 0%;}
+	
+	40%{margin-left: -100%;}
+	60%{margin-left: -100%;}
+	
+	80%{margin-left: -200%;}
+	100%{margin-left: -200%;}
+}
+
+.boton_nuevoproyec {
+	background: rgb(23, 32, 42);
+	padding: 8px;
+	color: rgb(255, 255, 255);
+	border-radius: 5%;
+}
+
+.boton_editar {
+	background: rgb(52, 152, 219);
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 15px;
+	padding: 8px;
+	border: none;
+	border-radius: 10%;
+}
+
+.boton_editar:hover {
+	border: 1px solid black;
+}
+
+.boton_borrar {
+	background: rgb(222, 42, 31);
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 15px;
+	padding: 8px;
+	border: none;
+	border-radius: 10%;
+}
+
+.boton_borrar:hover {
+	border: 1px solid black;
+}
+
