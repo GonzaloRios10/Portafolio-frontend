@@ -3,7 +3,7 @@
 📝 Descripción
 Portafolio Web Fullstack Jr realizado como Proyecto Final del curso Argentina Programa - #YoProgramo.
 
-Se trata de una Single Page Application (SPA) realizada utilizando tecnologías Frontend como ser HTML, CSS, Angular y un poco de Bootstrap.
+Se trata de una Single Page Application (SPA) realizada utilizando tecnologías Frontend como ser HTML, CSS, Angular y Bootstrap.
 
 ## ❔ Como funciona
 Podemos ingresar al login de la pagina haciendo click en el logo donde se encuentran los usuarios (en el header) en el encabezado de la página.
