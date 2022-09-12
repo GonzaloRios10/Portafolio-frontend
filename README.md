@@ -1,7 +1,7 @@
-# 💻 Portfolio Web - FrontEnd
+# 💻 Portafolio Web - FrontEnd
 
 📝 Descripción
-Portfolio Web Fullstack realizado como Proyecto Final del curso Argentina Programa - #YoProgramo.
+Portafolio Web Fullstack realizado como Proyecto Final del curso Argentina Programa - #YoProgramo.
 
 Se trata de una Single Page Application (SPA) realizada utilizando tecnologías Frontend como ser HTML, CSS, Angular y Bootstrap.
 
